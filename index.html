@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Register</title>
+    <script
+      src="https://kit.fontawesome.com/43d90f3914.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Tabel">
+        <h1 class="title">Sing Up</h1>
+
+        <div class="input-filde">
+          <i class="fa-solid fa-user"></i>
+          <input id="nume" type="text" placeholder="Nume" />
+        </div>
+        <div class="input-filde">
+          <i class="fa-solid fa-user"></i>
+          <input id="prenume" type="text" placeholder="Prenume" />
+        </div>
+        <div class="input-filde">
+          <i class="fa-solid fa-envelope"></i>
+          <input id="email" type="email" placeholder="E-mail" />
+        </div>
+        <div class="input-filde">
+          <i class="fa-solid fa-envelope"></i>
+          <input
+            id="confirmare-email"
+            type="email"
+            placeholder="Confirmare E-mail"
+          />
+        </div>
+        <div class="input-filde">
+          <i class="fa-solid fa-lock"></i>
+          <input id="parola" type="password" placeholder="Parola" />
+        </div>
+        <div class="input-filde">
+          <i class="fa-solid fa-lock"></i>
+          <input
+            id="confirmare-parola"
+            type="password"
+            placeholder="Confirmare Parola"
+          />
+        </div>
+
+        <div class="select">
+          Vrasta
+          <select name="age" id="age">
+            <option>..select..</option>
+            <option value="5-10">5-10</option>
+            <option value="11-18">11-18</option>
+            <option value="19-30">19-30</option>
+            <option value="31-50">31-50</option>
+            <option value="51-70">51-70</option>
+            <option value="71+">71+</option></select
+          ><br />
+        </div>
+
+        <div class="checkbox">
+          Sunt de acord cu Termeni si conditiile
+          <input
+            id="termeni-si-conditi"
+            type="checkbox"
+            placeholder="termeni-si-conditi"
+          />
+        </div>
+        <div class="butoane">
+          <button type="button" id="singUpButton">Sing Up</button>
+          <button type="button" id="singInButton" class="dezactivat">Sing In</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="curs.js"></script>
+  </body>
+</html>
